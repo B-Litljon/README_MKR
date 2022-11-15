@@ -1,0 +1,15 @@
+{
+  "name": "readme_mkr",
+  "version": "1.0.0",
+  "description": "cli tool so that you can quickly write a readme before even opening the project",
+  "main": ".js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Littlejohn",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4"
+  }
+}
