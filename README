@@ -1,12 +1,12 @@
-#README_MKR 
+## README_MKR 
 
-## the reason behind this project is I'm doing it for class, however... after doing research for this project i realized they are fairly important, just helps better explain my thought process to the potential user. also it will help me map out my thoughts a little better so i stick with a plan
+* the reason behind this project is I'm doing it for class, however... after doing research for this project i realized they are fairly important, just helps better explain my thought process to the potential user. also it will help me map out my thoughts a little better so i stick with a plan
 
 
 
 ## User story:
-as a person who struggles to stick to my own plans and being generally organized
-I need a readme generator i can use in the CLI
-when I input info into the readme generator 
-it will take that info and return it to a readme file using markdown syntax
-Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+* as a person who struggles to stick to my own plans and being generally organized
+* I need a readme generator i can use in the CLI
+* when I input info into the readme generator 
+* it will take that info and return it to a readme file using markdown syntax
+* Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
