@@ -72,7 +72,7 @@ inquirer.prompt(   //prompt method arguments should be wrapped in this order (re
 )
 
  //----------------
-//-todo goes here-
+//-file writer-
 
  //----------------
 //-todo goes here-
