@@ -83,15 +83,7 @@ inquirer.prompt(   //prompt method arguments should be wrapped in this order (re
     contact
 
 })=>{ //markdown template
-const template = `# ${title}   
-* [description] (#description)
-* [contentsTable] (#contentsTable)  
-* [install] (#install)  //
-* [usage] (#usage) //alter
-* [licsense] (#licsense)
-* [contributions] (#contributions)
-* [tests] (#tests)  //
-* [contact] (#contact)
+const template = `## ${title}   
 # description
 ${description}
 # install
@@ -111,7 +103,7 @@ makeNewFile(title, template);
 function makeNewFile(fileName, data){
 fs.writeFile(`./${fileName.toLowerCase().split(' ').join(' ')}.md`,data,()=>{
         //if(err) ()=> {console.log(err)}
-        console.log("you're now the proud parent of a professional README :) ");
-    })
+        console.log("you're now the proud parent of a 'professional' README :) ");
+    })   //it is in fact not professional yet it needs a bit of work but I also need a break
 }
  
